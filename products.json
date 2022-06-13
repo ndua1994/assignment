@@ -1,0 +1,72 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Angular Js",
+      "duration": 6,
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+    },
+    {
+      "id": 2,
+      "name": "Javascript",
+      "duration": 3,
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+    },
+    {
+      "id": 3,
+      "name": "Codeignitor",
+      "duration": 2,
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+    },
+    {
+      "id": 4,
+      "name": "Jquery",
+      "duration": 3,
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+    }
+  ],
+  "enquiries": [
+    {
+      "id": 1,
+      "course_id": "1",
+      "name": "karan",
+      "email": "karan@email.com",
+      "experience": "2"
+    },
+    {
+      "id": 2,
+      "course_id": "3",
+      "name": "ratan",
+      "email": "ratan@gmail.com",
+      "experience": "2"
+    },
+    {
+      "name": "kanika",
+      "email": "kanika@gmail.com",
+      "experience": "5",
+      "course_id": "8",
+      "id": 3
+    },
+    {
+      "name": "rajat",
+      "email": "rajat@email.com",
+      "experience": "5",
+      "course_id": "2",
+      "id": 4
+    },
+    {
+      "name": "ritik",
+      "email": "ritik@email.com",
+      "experience": "2",
+      "course_id": "3",
+      "id": 5
+    },
+    {
+      "name": "test name",
+      "email": "test@email.com",
+      "experience": "3",
+      "course_id": "1",
+      "id": 6
+    }
+  ]
+}

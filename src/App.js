@@ -1,24 +1,31 @@
-import logo from './logo.svg';
+import { BrowserRouter as Router, Routes,Route } from 'react-router-dom'
 import './App.css';
+import Home from './components/Home';
+import Nav from './components/Nav';
+import EnquiryCourse from './components/Enquiries';
+import EnquiryForm from './components/AddEnquiryForm';
+import AddEnquiryForm from './components/AddEnquiryForm';
+import Enquiries from './components/Enquiries';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <main>
+    <Router>
+    <Nav/>
+    <section className='container'>
+         <Routes>
+            <Route path='/' element={<Home/>}/>
+            <Route path="/enquirycourse" element={<EnquiryCourse/>}/>
+            <Route path="/courseenquiry/:id" element={<AddEnquiryForm/>}/>
+            <Route path="/enquirycourse/" element={<Enquiries/>}/>
+            <Route path="*" element={<h1 className='Text-align:center'>404 Page Not Found </h1>}/>
+           
+      
+         </Routes>
+    </section>
+    </Router>
+  </main>
   );
 }
 
